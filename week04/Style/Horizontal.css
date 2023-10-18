@@ -1,0 +1,42 @@
+ul{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ccc;
+  border: 3px solid #a0a1a3;
+}
+
+li{
+  list-style: none;
+  float: left;
+}
+
+li a{
+  display: block;
+  text-decoration: none;
+  color: #000;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 18px;
+  font-family: Arial;
+}
+
+li a:hover:not(.active) {
+  background-color: #5b5b5c;
+  color: #fff;
+}
+
+.about-menu{
+  float: right;
+}
+
+.horiazontal{
+  font-family: Arial;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.active{
+  background-color: #064394;
+  color: white;
+}
